@@ -52,7 +52,6 @@ if [ "$save_log" == "y" ]; then
     read -p "Enter the name of the log file: " log_filename
     log_filepath="$log_location/$log_filename"
     
-    # Sprawdź istnienie katalogu i utwórz go, jeśli nie istnieje
     if [ ! -d "$log_location" ]; then
         mkdir -p "$log_location"
     fi
