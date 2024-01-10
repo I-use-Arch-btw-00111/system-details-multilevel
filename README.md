@@ -6,9 +6,9 @@ Usage:
 
 1. Open a terminal.
 2. Navigate to the directory containing the script.
-3. Run the script using the following command (if running the latest version 1.1-bash)
+3. Run the script using the following command (if running the latest version 1.1-bash). If you prefer to use another shell (e.g. zsh), just replace "bash" with your shell.
 
-        ./system-details-multilevel-1.1-bash.sh
+        bash ./system-details-multilevel-1.1-bash.sh
 
 # INFO: For detail levels 2 and 3, and for writing to some directories, root privileges are required (use *sudo* then).
 
